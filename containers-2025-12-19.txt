@@ -1,0 +1,19 @@
+DOCKER CONTAINERS REPORT
+Generated: 2025-12-19 18:55:57
+========================================
+
+RUNNING CONTAINERS:
+-------------------
+CONTAINER ID   IMAGE                COMMAND                  CREATED      STATUS          PORTS      NAMES
+3ab083f66b41   postgres:15-alpine   "docker-entrypoint.s…"   6 days ago   Up 10 minutes   5432/tcp   lab-postgres-db
+
+ALL CONTAINERS:
+---------------
+CONTAINER ID   IMAGE                COMMAND                  CREATED      STATUS                        PORTS      NAMES
+eca02336a949   docker_lab-web       "python app.py"          6 days ago   Exited (137) 14 minutes ago              lab-web-app
+3ab083f66b41   postgres:15-alpine   "docker-entrypoint.s…"   6 days ago   Up 10 minutes                 5432/tcp   lab-postgres-db
+
+STATISTICS:
+-----------
+Running: 1
+Total:   2
